@@ -1,13 +1,10 @@
 package com.company;
 
 public class Trade {
-    long tradeNQ;
+    long tradeNQ, volume;
     int tradeTime;
-    long volume;
-    double value;
+    double value, price, rise;
     String seccode;
-    double price;
-    double rise;
 
     public Trade(String[] strings) {
         this.rise = 0;
